@@ -1,0 +1,20 @@
+{
+  "name": "observer",
+  "version": "1.0.0",
+  "description": "Just an experimental extension",
+  "author": "hikikomori.yukisan@gmail.com",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack"
+  },
+  "keywords": [],
+  "license": "GPL-3.0",
+  "devDependencies": {
+    "@types/chrome": "^0.0.243",
+    "copy-webpack-plugin": "^11.0.0",
+    "ts-loader": "^9.4.4",
+    "typescript": "^5.1.6",
+    "webpack": "^5.88.2",
+    "webpack-cli": "^5.1.4"
+  }
+}
