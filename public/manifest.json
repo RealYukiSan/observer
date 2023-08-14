@@ -10,7 +10,8 @@
     "48": "icon128.png",
     "128": "icon128.png"
   },
-  "permissions": ["activeTab", "scripting"],
+  "host_permissions": ["*://*/*"],
+  "permissions": ["webRequest"],
   "background": {
     "service_worker": "main.js"
   },

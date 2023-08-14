@@ -18,6 +18,9 @@ module.exports = {
 			},
 		],
 	},
+	resolve: {
+		extensions: ['.ts']
+	},
 	plugins: [
 		new CopyPlugin({
 			patterns: [{from: ".", to: ".", context: "public"}]
